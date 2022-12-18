@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asesorias ASEF</title>
+
+  <!-- ENLACE CON BOOSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- ENLACE CON HOJA DE ESILO -->
+  <link rel="stylesheet" href="./Stylos/Stylo2.css">
+
+</head>
+
+<body>
+  <header>
+    <!-- TIPO DE BARRA DE BOOSTRAP CON MENU DESPLEGABLE -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <!-- <nav class="navbar navbar-expand-lg" style="background-color: #0685e0;"> -->
+      <!-- Ajuste Color Fondo Barra -->
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./imagenes/LogoAsef2020.jpg" class="img-logo" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a> <!-- Enlace Activo -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Servicios.html">SERVICIOS</a> <!-- Enlace a Pagina Servicios -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Normas.html">NORMAS</a> <!-- Enlace a Pagina Normas -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contactos/index.php">CONTACTO</a> <!-- Enlace a Form Contaco -->
+            </li>
+            <li class="nav-item dropdown">
+              <!-- Menú desplegable -->
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                ZONA CLIENTES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./Tutoriales.html">Tutoriales</a></li>
+                <li><a class="dropdown-item" href="./Solicit.html">Solicitudes</a></li>
+                <li><a class="dropdown-item" href="./Calendarios.html">Calendarios</a></li>
+                <li><a class="dropdown-item" href="./Recursos.html">Recursos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <section class="seccion1">
+    <!-- SECCION 1  Vinculada al Stilo CSS-->
+
+    <!-- CAROUSEL CON BOOTSTRAP -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" > <!-- data-bs-ride="carousel" Activa movim "false" desactiva-->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000"> <!-- Activa movimiento -->
+          <img src="./Imagenes/Contabil2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="./Servicios.html">
+              <h1>CONTABILIDAD</h1>
+            </a>
+            <p>Cuente con información oportuna y efectiva para la toma de las decisiones de su negocio</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/Impuestos2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="./Servicios.html">
+              <h1>IMPUESTOS</h1>
+            </a>
+            <p>Matenga siempre su Empresa al día con el Estado sin que le cueste demasiado</p></a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/Finanzas2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="./Servicios.html">
+              <h1>FINANZAS</h1>
+            </a>
+            <p>Analice y proyecte la economía de su empresa en función de la información real</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/Nomina1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="./Servicios.html">
+              <h1>NOMINA</h1>
+            </a>
+            <p>Liquide adecuadamente las obligaciones laborales de sus colaboradores </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/Negocios2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="./Servicios.html">
+              <h1>FORMALIZACION</h1>
+            </a>
+            <p>Legalice su negocio de acuerdo a sus posibilidades, beneficios y necesidades </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/Docum2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="./Servicios.html">
+              <h1>DOCUMENTOS ELETRÓNICOS</h1>
+            </a>
+            <p>Expida, organice y procese todos los documentos generados y recibidos por su empresa </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  </section>
+
+
+  <h2></h2>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+
+  <section class="datos"> <!-- SECCION TABLA DATOS DE INTERES -->
+    <h4 class="card-title mt-3 text-center bg-info">INFORMACIÓN DE INTERÉS</h4>
+    <div class="table table-responsive"> <!-- Responsive -->
+      <table class="table align-middle table-striped table-bordered"> <!-- Diseño Bootsrap -->
+        <!-- bordered para todos los bordes -->
+        <thead>
+          <caption></caption>
+          <tr class="table-info"> <!-- table-info es el estilo de fondo boostrap -->
+            <th colspan="4">RETENCION EN LA FUENTE</th> <!-- colspan combina columnas "n" rowspan combina filas -->
+            <th colspan="2">DATOS LABORALES</th>
+            <!-- todos los titulos centrado automaticamente con SCC table th en stylo2 -->
+            <th colspan="2">DATOS TRIBUTARIOS</th>
+          </tr>
+          <tr>
+            <th>Concepto</th>
+            <th>Base</th>
+            <th>Decl</th>
+            <th>No Decl</th>
+            <th>Concepto</th>
+            <th>Valor</th>
+            <th>Concepto</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Compras</td>
+            <td align="right">$1.075.000</td> <!-- alinea dato con aling  -->
+            <td align="center">2.5%</td>
+            <td align="center">3.5%</td>
+            <td>Salario Minimo</td>
+            <td align="right">$1.000.000</td>
+            <td>UVT Vigente</td>
+            <td align="right">$38.004</td>
+          </tr>
+          <tr>
+            <td>Servicios</td>
+            <td align="right">$180.000</td>
+            <td align="center">4%</td>
+            <td align="center">6%</td>
+            <td>Auxilio de Transporte</td>
+            <td align="right">$117.172</td>
+            <td>Sanción Mínima Dian</td>
+            <td align="right">$380.000</td>
+          </tr>
+          <tr>
+            <td>Arriendos</td>
+            <td align="right">$1.075.000</td>
+            <td align="center">2.5%</td>
+            <td align="center">3.5%</td>
+            <td>Prestaciones</td>
+            <td align="right">$238.993</td>
+            <td>Sanción Mínima SHD</td>
+            <td align="right">$266.000</td>
+          </tr>
+          <tr>
+            <td>Salarios</td>
+            <td align="right">$5.290.000</td>
+            <td align="center">Según Tabla</td>
+            <td align="center">Según Tabla</td>
+            <td>Seg Social Empresa</td>
+            <td align="right">$165.000</td>
+            <td>No Responsables IVA</td>
+            <td align="right">$127.078.000</td>
+          </tr>
+          <tr>
+            <td>Trans Carga</td>
+            <td align="right">$1</td>
+            <td align="center">1%</td>
+            <td align="center">1%</td>
+            <td>Seg Social Empleado</td>
+            <td align="right">$80.000</td>
+            <td>Declarantes de Renta</td>
+            <td align="right">$50.831.000</td>
+          </tr>
+          </tr>
+        </tbody>
+
+
+      </table>
+
+
+  </section>
+
+  <section class="public"> <!-- Seccion publicitaria clientes -->
+
+    <div class="container">
+      <div class="row align-items-center"> <!-- alineacion vertical start, center, end -->
+        <div class="col border text-center">
+          <a title="Iberoamericana" href="https://www.ibero.edu.co/" target="_blank"><img
+              src="./Imagenes/LogoIbero2.jpg" class="img-public img-fluid" alt="ibero" /></a>
+          <!-- Imagen con enlace nueva pestaña -->
+          <h6>Corporación Universitaria</h6>
+        </div>
+
+        <div class="col border text-center"> <!-- con borde y tex-center para centrar todo  -->
+          <a title="bit.institute" href="https://bit.institute/" target="_blank"><img src="./Imagenes/LogoBIT.png"
+              class="img-public2 img-fluid" alt="bit" /></a>
+          <!-- img-fluid para reponse, d-block mx-auto centra imagen -->
+          <h6>Cursos Programacion</h6>
+        </div>
+
+        <div class="col border text-center">
+          <a title="servipley" href="http://www.servipley.com.co/" target="_blank"><img
+              src="./Imagenes/LogoServipley.png" class="img-public2 img-fluid" alt="servipley" /></a>
+          <h6>Estructuras Metálicas</h6>
+        </div>
+
+        <div class="col border text-center">
+          <a title="dotaincol" href="https://dotaciones-industriales-dotaincol.negocio.site/" target="_blank"><img
+              src="./Imagenes/Logo Dotaincol.png" class="img-public img-fluid" alt="dotaincol" /></a>
+          <h6>Dotaciones Industriales</h6>
+        </div>
+
+        <div class="col border text-center">
+          <a title="eikon" href="https://www.eikondigital.com/" target="_blank"><img src="./Imagenes/logo Dpi.jpg"
+              class="img-public img-fluid " alt="eikon" /></a>
+          <h6>Diseño y Publicidad</h6>
+        </div>
+
+        <div class="col border text-center">
+          <a title="zantos" href="https://www.zantosuniformescolombia.com/" target="_blank"><img
+              src="./Imagenes/Logo Zantos Uniformes.png" class="img-public img-fluid" alt="zantos" /></a>
+          <h6>Uniformes Corporativos</h6>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+
+  </section>
+
+  <br> <br>
+
+  <section class="titulares">
+    <!-- SECCION TITULARES  Vinculada al Stilo CSS-->
+
+    <div class="container container-fluid">
+      <!-- cuadricula  -->
+      <div id="t1" class="row">
+        <!-- identificacion especifica t1 -->
+        <div class="col">
+          <div class="card text-justify-content">
+            <h4 class="card-title text-center mt-3">LAS EMPRESAS DEBEN REGISTRAR A SUS DUEÑOS O ACCIONISTAS ANTE LA
+              DIAN</h4> <!-- mt-n margen superior -->
+            <img class="d-block mx-auto" src="./Imagenes/RUB1.png" wide="20px" height="150px" alt="rub">
+            <!-- centra imagen con d-block mx-auto -->
+            <p class="card-text h5 px-3 mt-2">Todas las sociedades en Colombia tienen plazo hasta el 31 de mayo de 2023
+              para suministrar la información de todos sus beneficiarios finales por medio del nuevo Registro único de
+              Beneficiarios Finales (RUB) implementado por la DIAN, como un anexo al Registro Unico Tributario (RUT).
+              <a href="#art1">Leer más</a> <!-- # define el "id" de la seccion a donde se dirige -->
+            </p>
+            <br>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card text-justify-content">
+            <img class="d-block mx-auto mt-3" src="./Imagenes/RUT1.jpg" wide="auto" height="150px" alt="rub">
+            <h4 class="card-title text-center mt-2">DEBO ACTUALIZAR EL RUT CADA VEZ QUE ALGUIEN ME LO SOLICITE?</h4>
+            <p class="card-text h5 px-3 mt-2">A pesar de que el País que trata de disminuir la tramitología, últimamente
+              les ha dado a las entidades por pedir “copias del RUT actualizado”, lo cual ha generado dudas respecto a
+              si debemos estar actualizando el RUT innecesariamente cada vez que a alguien le dá por solicitarlo
+              <a href="#art2">Leer más</a>
+            </p>
+            <br>
+
+          </div>
+          <br> <br>
+        </div>
+
+        <br><br>
+      </div>
+
+
+      <div id="t3" class="row">
+
+        <div class="col">
+          <div class="card">
+            <h4 class="card-title text-center mt-3">LA RETENCION EN LA FUENTE PRESENTADA SIN PAGO PUEDE SER INEFICÁZ
+            </h4>
+            <img class="d-block mx-auto" src="./Imagenes/ReteIneficaz.jpg" wide="auto" height="150px" alt="ret">
+            <p class="card-text h5 px-3 mt-2">Debemos tener mucho cuidado con el pago oportuno de las declaraciones de
+              retención en la fuente, ya que de acuerdo a la normatividad si no se pagan dentro de un plazo máximo la
+              DIAN las declara “ineficaces”, generando su anulación y por lo tanto el pago de sanción del 5% mensual.
+              <a href="#art3">Leer más</a> <!-- # define el "id" de la seccion a donde se dirige -->
+              <br> <br>
+            </p>
+            <br>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card text-justify-content">
+            <img class="d-block mx-auto mt-3" src="./Imagenes/DocumSoporte.jpg" wide="auto" height="150px" alt="ds">
+            <h4 class="card-title text-center mt-2">OJO CON LAS COMPRAS A NO RESPONSABLES DE IVA</h4>
+            <p class="card-text h5 px-3 mt-2">La nueva normatividad tributaria nos indica que toda compra de bienes o
+              servicios debe realizarse con factura electrónica para ser reconocida por la DIAN como costo o gasto y
+              poder ser deducible de impuestos tanto de IVA como de Renta. El problema es cuando adquirimos bienes o
+              servicios con personas no obligadas a expedir factura, como lo son los no responsables de IVA o antiguo
+              Régimen Simplificado.
+              <a href="#art4">Leer más</a>
+            </p>
+            <br>
+
+          </div>
+          <br> <br>
+        </div>
+
+
+
+        <br><br>
+      </div>
+
+    </div>
+
+    <div id="t4" class="row">
+      <!-- identificacion especifica t1 -->
+      <div class="col">
+        <div style="text-align:center;">
+          <!-- centrar video Style=text-align  -->
+          <iframe width="350" height="250" alight="center" src="https://www.youtube.com/embed/6Kt_kn2JOyk"
+            title="Regimen Simple" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+
+    <div id="t5" class="row">
+
+      <div class="col">
+        <div class="card text-justify-content">
+          <h4 class="card-title mt-3 text-center bg-success">LE CONVIENE A SU EMPRESA EL RÉGIMEN SIMPLE DE TRIBUTACIÓN?
+          </h4>
+          <p class="card-text h5 px-3 mt-2">El régimen simple de tributación (RST) es un sistema especial de Renta para
+            pequeños contribuyentes tanto naturales como jurídicas, creado por la Ley 1943 de 2018 y ratificado por Ley
+            2010 de 2019, y que consiste en declarar anualmente los impuestos a cargo, sobre los cuales de pagan
+            anticipos bimestrales en un único formulario DIAN (2593).Lo atractivo de este régimen es que el impuesto de
+            renta no se genera sobre
+            las utilidades, sino que se paga una tarifa sobre los ingresos brutos bimestrales, que depende del monto de
+            ingresos y de la actividad económica, esta tarifa incluye el ICA y sobre el excedente se pueden descontar
+            los aportes a pensión que realice la empresa por sus empleados. Quienes se acojan a este régimen no están
+            sometidos a Retefuente ni Reteica sobre sus ventas y tampoco son agentes de retención sobre sus compras, lo
+            cual simplifica los procesos tributarios y de tesorería y quienes sean responsables de IVA o consumo lo
+            deben pagara bimestralmente en el mismo formulario.
+          </p>
+          <br>
+
+        </div>
+        <br>
+      </div>
+      <br><br>
+    </div>
+    </div>
+  </section>
+  <br> <br>
+
+  <!-- SECCION DE ARTICULOS -->
+
+  <section id="art1" class="articulo1">
+
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <h4 class="titart1">LAS EMPRESAS DEBEN REGISTRAR A SUS DUEÑOS O ACCIONISTAS ANTE LA
+            DIAN</h4> <!-- texto personalisado scc -->
+          <img class="d-block mx-auto mt-3" src="./Imagenes/Ocultos2.jpg" wide="200px" height="150px" alt="ocul">
+          <p class="card-text h5 px-3 mt-2">Todas las sociedades en Colombia tienen plazo hasta el 31 de mayo de 2023
+            para suministrar la información de todos sus beneficiarios finales por medio del nuevo Registro único de
+            Beneficiarios Finales (RUB) implementado por la DIAN, como un anexo al Registro Unico Tributario (RUT), para
+            lo cual se debe suministrar la siguiente información de manera electrónica por medio de los sistemas
+            establecidos y actualizarla ante cualquier modificación dentro del mes siguiente, contado a partir del
+            primer día de los meses de enero, abril, julio y octubre. <a title="Res2027" href="https://docs.google.com/gview?url=https://www.dian.gov.co/normatividad/Normatividad/Resoluci%C3%B3n%20000164%20de%2027-12-2021.pdf"
+            target="_blank">Ver Resolución DIAN</a></p> <!-- https://docs.google.com/gview?url=enlace abre un pdf para descargar -->
+        </div>
+        <div class="col">
+          <ul type="square" class="card-text h5 px-5 mt-2">
+            <li>Tipo de documento </li>
+            <li>Número de identificación y país de expedición. </li>
+            <li>Número de identificación tributaria NIT o equivalente.</li>
+            <li>Nombres y apellidos de los beneficiarios finales.</li>
+            <li>Fecha y país de nacimiento y país de nacionalidad </li>
+            <li>Ubicación incluyendo lugar de residencia, dirección, código postal y correo electrónico. </li>
+            <li>Criterios de determinación de los beneficiarios finales. </li>
+            <li>Porcentaje de participación en el capital de la sociedad.</li>
+            <li>Porcentaje de beneficio en los rendimientos, resultados o utilidades </li>
+            <li>Fecha desde la cual tienen la calidad de beneficiarios finales.</li>
+            <li>Fecha desde la cual dejan la calidad de beneficiarios finales</li>
+
+          </ul>
+        </div>
+
+
+  </section>
+  <br> <br>
+
+  <section id="art2" class="articulo2">
+
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <img class="d-block mx-auto mt-3" src="./Imagenes/Ayuda2.jpg" wide="10px" height="150px" alt="preg">
+          <h4 class="titart2">DEBO ACTUALIZAR EL RUT CADA VEZ QUE ALGUIEN ME LO SOLICITE?</h4>
+          <p class="card-text h5 px-3 mt-2">A pesar de que el País que trata de disminuir la tramitología, últimamente
+            les ha
+            dado a las entidades por pedir “copias del RUT actualizado”, lo cual ha generado dudas respecto a si debemos
+            estar
+            actualizando el RUT innecesariamente cada vez que a alguien le dá por solicitarlo. Para ello debemos
+            diferenciar
+            entre “actualizar” el Rut o generar una “copia reciente”, lo primero implica “modificar” la información allí
+            contenida, utilizando la firma digital, mientras que lo segundo es una simple descarga de un Pdf. </p>
+        </div>
+
+
+        <div class="col">
+          <p class="card-text h5 px-3 mt-2">Al respecto la
+            administración tributaria aclara en el Art. 1.6.2.1.7 del Decreto 1625 del 2016 que tal como lo establece el
+            Decreto 2460 del 2013, el registro único tributario (RUT) no pierde vigencia, y solo debe actualizarse en
+            los
+            casos que implican modificaciones en el formulario como datos comerciales, actividad económica,
+            responsabilidades
+            o representantes entre otros. También indica la entidad que cualquier contribuyente pude descargar cuando lo
+            desee
+            una “copia reciente” directamente desde la plataforma, sin necesidad de realizar ningún trámite ni firma,
+            cuya
+            fecha de descarga aparecerá como pie de página en la parte inferior derecha del formulario. Considerando lo
+            anterior ninguna entidad puede exigir actualizar el RUT si no existen cambios o modificaciones en su
+            información,
+            lo que si pueden solicitar es una copia reciente. </p>
+        </div>
+
+  </section>
+  <br> <br>
+
+  <section id="art3" class="articulo1">
+
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <h4 class="titart1 mt-2">LA RETENCION EN LA FUENTE PRESENTADA SIN PAGO PUEDE SER INEFICÁZ</h4>
+          <img class="d-block mx-auto mt-3" src="./Imagenes/DeclRetfte.jpg" wide="auto" height="150px" alt="preg">
+          <p class="card-text h5 px-3 mt-2">Debemos tener mucho cuidado con el pago oportuno de las declaraciones de
+            retención en la fuente, ya que de acuerdo a la normatividad si no se pagan dentro de un plazo máximo de 60
+            días después de su vencimiento, quedan automáticamente como “ineficaces”, es de decir que es como si el
+            contribuyente no las hubiese presentado, pero si generan procesos de cobro por parte de la administración.
+          </p>
+        </div>
+
+
+        <div class="col">
+          <p class="card-text h5 px-3 mt-2">El propio artículo 580-1 del Estatuto Tributario dispone que las
+            declaraciones de retención en la fuente
+            presentadas sin pago total no producirán efecto alguno, sin necesidad de acto administrativo que así lo
+            declare.La única forma de subsanar esta ineficacia es volver a presentar la
+            declaración y pagarla inmediatamente, pero liquidando la sanción por extemporaneidad del 5% mensual, lo cual
+            puede resultar bastante costoso si se deja pasar mucho tiempo, ya que por lo general la administración
+            inicia los procesos de cobranza mucho después. Por ello recomendamos no dejar sin pago estas declaraciones,
+            ya que corregir esta situación será bastante costoso y dispendioso. <br> <br>
+            <a title="Concep991" href="https://docs.google.com/gview?url=https://incp.org.co/wp-content/uploads/2022/09/Concepto-No-991-de-2022.pdf"
+            target="_blank">Ver Concepto DIAN</a></p>
+        </div>
+
+  </section>
+  <br> <br>
+
+  <section id="art4" class="articulo2">
+
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <h4 class="titart2">OJO CON LAS COMPRAS REALIZADAS A NO RESPONSABLES DE IVA</h4> <!-- texto personalisado scc -->
+          <img class="d-block mx-auto mt-3" src="./Imagenes/DocumSoporte.jpg" wide="200px" height="150px" alt="ocul">
+          <p class="card-text h5 px-3 mt-2">Cuando adquirimos bienes o servicios con personas no obligadas a expedir
+            factura, como los no responsables de IVA y queremos deducir esas compras de impuestos, es necesario
+            legalizarlas por medio del nuevo “Documento Soporte”, el cual debe ser elaborado por el comprador, siendo
+            electrónico para los obligados a facturar o manual para los no obligados. Para poder generar estos
+            documentos soportes es necesario en todos los casos obtener una autorización de numeración ante la DIAN y
+            cumplir con los requisitos establecidos en la Resolución 000167 de 2021 como son: 
+        </div>
+        <div class="col">
+          <ul type="square" class="card-text h5 px-5 mt-2">
+            <li>Debe tener el nombre específico de “Documento Soporte en Adquisiciones efectuadas a no obligados a facturar”. </li>
+            <li>Fecha de generación del documento.</li>
+            <li>Nombres, apellidos, razón social. NIT del vendedor.</li>
+            <li>Nombres, apellidos, razón social. NIT del adquiriente o comprador.</li>
+            <li>Numeración consecutiva de acuerdo a la autorizadción de la DIAN. </li>
+            <li>Describir el producto o servicio.</li>
+            <li>Valor de la compra. </li>
+            <li>Firma del emisor del documento soporte.</li>
+            <li>PSi es electrónico debe tener el CUDS (Código Único de Documento Soporte). </li>
+
+          </ul>
+          <a title="DocSop" href="https://docs.google.com/gview?url=https://www.dian.gov.co/impuestos/Documents/Documento_soporte_en_adquisiciones_efectuadas.pdf"
+          target="_blank">Mayor Información</a></p>
+        </div>
+
+
+  </section>
+  <br> <br>
+
+</body>
+
+<!-- FOOTER -->
+<footer class="bg-gradient" style="background-color: rgb(48, 175, 173);">
+  <!-- fondo oscuro y degradado -->
+
+  <div class="d-flex align-conten center">
+    <!-- d-flex organixar elmentos y align para alineacion-->
+
+    <div class="container mt-4">
+      <!-- Grilla   (mt-4 margen)-->
+      <div class="row justify-content-center">
+        <div class="col">
+          <img src="./Imagenes/LogoAsef2020.jpg" width="100" height="60" alt="logo" /> <!-- medidas personalizadas -->
+          <h6>Encuentrános</h6>
+        </div>
+        <div class="col text-center">
+          <img src="./Imagenes/LogoEmail3.png" class="img-pie" alt="email" /> <!-- utiliza clase hoja stylo2 -->
+          <p><small>asesorias@yahoo.com</small></p>
+        </div>
+        <div class="col text-center">
+          <img src="./Imagenes/LogoWasap2.png" class="img-pie" alt="wasap" />
+          <p><small>3507262626</small></p> <!-- Texto pequeño -->
+        </div>
+        <div class="col text-center">
+          <img src="./Imagenes/LogoYoutube3.png"  class="img-pie" alt="Youtube" />
+          <p><small>@asesoriasasef7567</small></p>
+        </div>
+        <div class="col v-line text-center"> <!-- v-line define linea vertical en stylo2  -->
+          <a title="Dian" href="https://muisca.dian.gov.co/WebArquitectura/DefLoginOld.faces" target="_blank"><img
+              src="./Imagenes/LogoDian.png" class="img-pie" alt="Dian" /></a>
+        </div>
+        <div class="col text-center">
+          <a title="Camara" href="https://www.ccb.org.co/" target="_blank"><img src="./Imagenes/LogoCamara.png"
+              class="img-pie" alt="Camara" /></a> <!-- Imagen con enlace nueva pestaña -->
+        </div>
+        <div class="col text-center">
+          <a title="Shd" href="https://oficinavirtual.shd.gov.co/OficinaVirtual/login.html" target="_blank"><img
+              src="./Imagenes/LogoIca.jfif" width="80" height="60" alt="Shd" /></a>
+        </div>
+        <div class="col text-center">
+          <a title="Siigo" href="https://siigonube.siigo.com/ISIIGO2/Login.aspx?ReturnUrl=%2fISIIGO2%2fDefault.aspx"
+            target="_blank"><img src="./Imagenes/LogoSiigo.png" class="img-pie" alt="Siigo" /></a>
+        </div>
+        <div class="col text-center">
+          <a title="Xubio" href="https://xubio.com/NXV/newLogin" target="_blank"><img src="./Imagenes/LogoXubio.png"
+              class="img-pie" alt="Xubio" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="text-center"><strong>Derechos Reservados Asesorías Empresariales ASEF Sas</strong></p>
+      </div>
+      <div class="col">
+        <p class="text-center"><strong>ACCESO A SITIOS FRECUENTES</strong></p><!-- Texto negrilla y centrado -->
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  </div>
+
+
+
+
+
+</footer>
+
+
+
+</html>

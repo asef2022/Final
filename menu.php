@@ -5,7 +5,7 @@
             <a class="nav-link" href="./index.php">Ver Solicitudes</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./add.php">Registrar Solicitud</a>
+            <a class="nav-link" href="../admin.html">Cerrar Cesion</a>
         </li>
     </ul>
 </nav>

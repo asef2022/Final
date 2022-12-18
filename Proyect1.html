@@ -1,0 +1,128 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=head, initial-scale=1.0">
+    <title>Document</title>
+    <enlace rel="preconectar" href="https://fonts.googleapis.com"> <!-- tipografia copiada de google fonts -->
+        <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+            <enlace href="https: //fonts.googleapis.com/css2? family= DM+Sans & display=swap" rel="stylesheet">
+                <link rel="stylesheet" href="./Stylos/Stylo1.css">
+
+                <!-- Definir Estilo directamente en un elemento -->
+                <!-- <style>
+        h3{
+            color:chocolate
+        }
+        
+    </style> -->
+
+</head>
+
+<body>
+    <!-- Para definir estilo de la seccion sin CSS: style="background: yellowgreen" -->
+
+    <div class="contenedor"> <!-- Asignar el Responsive -->
+    <header>
+        <!-- Cabecera -->
+        <nav>
+            <!-- Barra de navegacion -->
+            <a href="./index.html"><img src="./imagenes/LogoAsef2020.jpg" class="img-logo" alt=""></a> <!-- Class propiedad creada en el stylo css -->
+            <ul>
+                <li> <a href="./index.html">INICIO</a></li>
+                <li> <a href="./Obligaciones.htm">OBLIGACIONES</a></li>
+                <li> <a href="./Calendario.html">CALENDARIO TRIBUTARIO</a></li>
+                <li> <a href="#RS">RÉGIMEN SIMPLE</a></li> <!-- conectada a una sección -->
+
+            </ul>
+
+        </nav>
+        <img src="./Imagenes/Negocios1.png" alt="">
+
+    </header>
+
+    <!-- SECCION 1 VIDEO Y ARTICULO CON BOTON -->
+    <section class="seccion1">
+        <iframe class="video1" width="439" height="247" src="https://www.youtube.com/embed/1Og-rauxFrY"
+            title="¿Cómo actualizar el Registro Único Tributario? - DIAN" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <article class="texto1">
+            <!-- Articulo -->
+            <h3>Cuando se debe Actualizar el RUT</h3>
+            <p>La Dirección de Impuestos y Aduanas Nacionales (DIAN) recuerda a los contribuyentes y a la ciudadanía en
+                general que el Registro Único Tributario (RUT) no tiene vigencia y en consecuencia, si el contribuyente
+                no tiene ninguna actualización que hacer a este documento, no se debe exigir su renovación.</p>
+
+            <div class="boton1">
+                <!-- Caja independiente con borde -->
+                <a href="#">
+                    <div>Ver Concepto Dian</div>
+                </a> <!-- Botón -->
+
+            </div>
+        </article>
+    </section>
+
+    <!-- SECCION 2 IMAGEN CON TEXTO -->
+    <section>
+        <figure>
+            <!-- Guarda ícono o imagen importante -->
+            <img src="./Imagenes/Declarac1.jpg" alt="">
+            <div>
+                <h3>Plazo máximo para pagar la Retención en la Fuente</h3>
+                <p> La declaración de retención en la fuente que se haya presentado sin pago total antes del vencimiento
+                    del plazo para declarar, producirá efectos legales, siempre y cuando el pago total de la retención
+                    se efectúe o se haya efectuado a más tardar dentro de los dos (2) meses siguientes contados a partir
+                    de la fecha del vencimiento del plazo para declarar. Lo anterior sin perjuicio de la liquidación de
+                    los intereses moratorios a que haya lugar.</p>
+
+            </div>
+
+        </figure>
+    </section>
+
+    <!-- SECCION 3 IMAGEN CON TEXTO CONECTADO AL ENCABEZADO -->
+    <section>
+        <figure>
+            <!-- Guarda ícono o imagen importante -->
+            <img src="./Imagenes/RegSimple.png" alt="">
+            <div id="RS">
+                <!-- Identificación unica de la sección para conectarla se relaciona con "#"" -->
+                <h3>Régimen Simple</h3>
+                <p> El Régimen Simple de Tributación - RST es un sistema para el pago de diferentes impuestos que se
+                    declara anualmente y se paga con anticipos bimestrales a través de los sistemas electrónicos de la
+                    DIAN y al que pue- den acceder de forma voluntaria, tanto personas naturales como perso- nas
+                    jurídicas que cumplan con una serie de condiciones.</p>
+
+            </div>
+
+        </figure>
+    </section>
+
+    <!-- PIEDE PAGINA FOOTER -->
+
+    <footer>
+        <!-- link  e información importante -->
+
+        <address>Derechos Reservados Asesorias Empresariales ASEF Sas</address>
+
+        <div>
+            <a href="#">Facebook</a>-
+            <!-- guion para separar en # se ndica el link-->
+            <a href="#">Twitter</a>-
+            <a href="#">Instagram</a>
+
+        </div>
+
+
+    </footer>
+
+</div> <!-- Cierra el Responsive -->
+
+</body>
+
+</html>

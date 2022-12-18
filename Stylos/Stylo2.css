@@ -1,0 +1,230 @@
+
+.img-logo { /* conjunto de propiedades que se indican en el html con "class" */
+    width: 200px;
+    padding: 0px;
+
+}
+
+.img-pie { /* conjunto de propiedades que se indican en el html con "class" */
+    width: 60px;
+    height: auto;
+    padding: 0px;
+
+}
+
+
+.img-public { /* conjunto de propiedades que se indican en el html con "class" */
+    width: 100px;
+    height: auto;
+    padding: 0px;
+
+}
+
+.img-public2 { /* conjunto de propiedades que se indican en el html con "class" */
+    width: 150px;
+    height: auto;
+    padding: 0px;
+    
+
+}
+
+nav {
+    width: 100%; /* Ancho */
+    height: 80px; /* Altura */
+    font-weight: 600;
+    font-size:large;
+    background-color:black
+}
+
+nav ul li {
+    list-style-type: none; /* Viñetas lista */
+    display: inline-block; /* vista lateral */
+    transition: 0.8 s all; /* efecto al seleccionar */
+    padding: 18px 20px; /* espacios de bordes entre elementos */
+}
+
+
+nav ul li :hover{  /* crea efecto de transicion al cambiar elemento */
+    background-color: rgba(196, 239, 252, 0.979);
+}
+
+.color-text {
+    color: white;
+}
+
+
+.seccion1{ /* Diseño para usar en html con "Class" al lado de la etiqueta section define la sección1 del index */
+    background-color: rgba(162, 221, 255, 0.24);
+    padding: 50px; 
+    width: 60%; /* Ancho */
+    margin: auto;
+    
+}
+
+
+  .carousel-caption p{ /* texto del carousel */
+font-size: x-large; /* Tamaño fuente */
+color: white;
+Font-weight: 500; /* grosor texto */
+background-color: rgb(0, 75, 104); /* fondeo texto */
+  }
+  
+.carousel-inner img{ /* porpiedades imagen carousel */
+    max-height: 460px;
+    width: 100%;
+}
+
+  h1{ /* texto titulos */
+    color: rgb(0, 18, 30);
+    font-weight: 700; /* grosor texto */
+    text-decoration: none;
+    height: 120px; /* asigna la margen superior */
+}
+
+
+.titulares{ /* Diseño para usar en html con "Class" al lado de la etiqueta section define la sección2 del index */
+    background-color: rgba(249, 230, 212, 0.884);
+    padding: 50px; 
+    width: 90%; /* Ancho */
+    margin: auto;
+    text-align: justify;
+    
+}
+
+
+.public{ /* Diseño para usar en html con "Class" al lado de la etiqueta section define la sección2 del index */
+    background-color: rgba(195, 219, 246, 0.647);
+    padding: 10px; 
+    width: 90%; /* Ancho */
+    margin: auto;
+    
+}
+
+
+.articulo1{
+    background-color: rgba(245, 254, 232, 0.884);
+    padding: 30px; 
+    width: 80%; /* Ancho */
+    margin: auto; 
+    text-align: justify; 
+}
+
+.titart1{ /* titulo personalizado Art 1 */
+color: darkred;
+text-align: center;
+margin-top: 0%;
+}
+
+.articulo2{
+    background-color: rgba(254, 225, 225, 0.884);
+    padding: 30px; 
+    width: 80%; /* Ancho */
+    margin: auto;
+    text-align: justify; 
+}
+
+.titart2{ /* titulo personalizado Art 1 */
+color: rgb(76, 0, 139);
+text-align: center;
+margin-top: 0%;
+}
+
+
+.datos{
+    background-color: rgba(240, 246, 255, 0.773);
+    padding: 30px; 
+    width: 80%; /* Ancho */
+    margin: auto; 
+}
+
+
+.seccionserv1{ /* Diseño 1ra seccion servicios */
+    background-color: rgb(185, 200, 204);
+    padding: 50px; 
+    width: 100%; /* Ancho */
+    margin: auto;
+    text-align: justify;
+    
+}
+
+.seccionserv2{ /* Diseño 2da seccion servicios */
+    background-color: rgb(232, 217, 204);
+    padding: 50px; 
+    width: 100%; /* Ancho */
+    margin: auto;
+    text-align: justify;
+}
+
+
+.seccionserv3{ /* Diseño 3ra seccion servicios */
+    background-color: rgb(232, 217, 255);
+    padding: 30px; 
+    width: 100%; /* Ancho */
+    margin: auto;
+    border-top: solid thin rgba(rgb(186, 226, 242));
+    text-align: justify;
+
+}
+
+
+.calend1{ /* Diseño calendarios */
+    background-color: white;
+    padding: 50px; 
+    width: 95%; /* Ancho */
+    margin: auto;
+}
+
+.calend2{ /* Diseño calendarios */
+    background-color: white;
+    padding: 50px; 
+    width: 60%; /* Ancho */
+    margin: auto;
+}
+
+/* DISEÑO PARA FORMULARIO */
+
+form{
+width: 80%;
+padding-top: 10px;
+
+}
+
+label{
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+input, textarea{
+    margin-left: 7px;
+}
+
+.tutorial1{
+    background-color: rgba(182, 182, 182, 0.762);
+    padding: 30px; 
+    width: 80%; /* Ancho */
+    margin: auto; 
+}
+
+
+.v-line{  /* Linea Vertical footer */
+    border-left: thick solid rgb(247, 247, 248);
+    height: 100px;;
+    left: 40%;
+    position: static;
+   }
+
+   .table th { /* alinea automaticamente al centro titulos de la tabla  */
+    text-align: center;
+    } 
+
+    
+  /*  .table td { /* alinea automaticamente al centro contenido de la tabla  */
+    /* text-align: center; */
+    
+    .norma{ /* Diseño para usar en html con "Class" al lado de la etiqueta section define la sección2 del index */
+        background-color: white;
+        padding: 20px; 
+        width: 80%; /* Ancho */
+        margin: auto;
+        
+    }

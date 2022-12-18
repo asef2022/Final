@@ -1,0 +1,119 @@
+body {
+    font-family: 'DM Sans', sans-serif; /* Fuente copiada de google fonts */
+    max-width: 900px; /* Tamaño ancho */
+    margin: 0 auto; /* margen centro */
+}
+
+nav {
+    width: 100%; /* Ancho */
+    height: 280px; /* Altura */
+    background-color: whitesmoke; /* Fondo */
+}
+
+
+
+nav ul li {
+    list-style-type: none; /* Viñetas lista */
+    display: inline-block; /* vista lateral */
+    transition: 0.8 s all; /* efecto al seleccionar */
+    padding: 18px 20px; /* espacios de bordes entre elementos */
+}
+
+nav ul li :hover{  /* crea efecto de transicion al cambiar elemento */
+    background-color: rgba(196, 239, 252, 0.979);
+}
+
+.img-logo { /* conjunto de propiedades que se indican en el html con "class" */
+    width: 200px;
+    padding: 20px;
+
+}
+
+nav ul{
+    display: inline-flex; /* Vista Barra de navegacion */
+    position: relative; /* Posicion Barra */
+    top: 0px; /* Altura Barra */
+}
+
+nav ul li a{
+    text-decoration: none; /* Decoración de texto */
+    color: rgb(255, 81, 0); /* Color letra */
+}
+
+h3, figure, ul { /* Asignar propiedades a varios elementos */
+    margin: 0;
+}
+
+img{
+    max-width: 100%; /* maximo tamaño imagenes */
+}
+
+/* ESTILOS SECCION 1 */
+
+.seccion1{ /* Diseño para usar en html con "Class" al lado de la etiqueta section */
+    background-color: rgba(162, 221, 255, 0.24);
+
+}
+
+.video1{ /* Propiedad para video se indica con Class despues de iframe */
+    width: 45%;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.texto1{ /* Propiedad para texto se indica con class despues de Article */
+    width:35%;
+    padding: 20px;
+    vertical-align: top;
+}
+
+article{ /* Diseño del articulo de la sección */
+    padding: 30px;
+    background-color: rgba(156, 228, 247, 0.479);
+}
+
+article h3{ /* Borde para titulo */
+    border-bottom: solid thin black;
+}
+
+.texto1, .video1{ /* Propiedad que relaciona a varios elementos */
+    display: inline-block; /* Alinear */
+}
+
+.boton1{ /* Propiedades para el boton */
+    text-align: center; /* Alineacion texto para usar con class en div */
+    background-color: rgb(0, 110, 255);
+    padding: 10px;
+}
+
+.boton1 a{ /* Texto Boton */
+    text-decoration: none;
+    color:white
+}
+.boton1 :hover { /* Efecto boton */
+    background-color: rgb(250, 142, 19);
+}
+
+/* ARTICLES */
+
+section{ /* Afecta a todas las secciones */
+    background-color: rgba(162, 221, 255, 0.24);
+    padding: 20px; 
+}
+section h3{ /* Afecta todos los titulos h3 */
+    border-bottom: solid thin black;
+    text-align: justify;
+}
+
+footer{ /* Diseño pie */
+    background-color: chocolate;
+    color: white;
+    line-height: 25px; /* separacion lineas */
+    text-align: center;
+    padding: 20px;
+}
+
+footer div a{ /* Diseño texto pie */
+    text-decoration: none;
+    color: white
+}
